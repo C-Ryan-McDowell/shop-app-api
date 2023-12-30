@@ -13,7 +13,7 @@ namespace ShopApp.Controllers
     [ApiController]
     public class MusicProductsController : ControllerBase
     {
-        private readonly ShopAppContext _context;
+        private readonly ShopAppContext _context; 
 
         public MusicProductsController(ShopAppContext context)
         {
